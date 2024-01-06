@@ -17,6 +17,17 @@
     padding: 18px 35px;
 }
 
+.section-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    font-size: 18px;
+}
+
 /* nav style  */
 
 nav {
@@ -49,15 +60,61 @@ nav a {
 /* header style  */
 .header-section {
     background: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 700px;
 }
 
 .banner {
     /* margin: 50px 0 0 230px; */
-    padding: 30px 30px 0 150px;
+    padding: 30px 0 0 150px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
+}
+
+.banner-content {
+    max-width: 550px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    font-weight: 600px;
+    margin-bottom: 0;
+    /* font size i didn't added from google font so if you need it please add from google font  */
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: #181818;
+}
+
+.banner-description {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #757575;
 }
 
 .profile-pic {
     width: 500px;
+}
+
+/* main style  */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section style  */
+.about-section {
+    border-radius: 10px;
+    background: #FFF8F3;
+    text-align: center;
+    margin: 130px 0;
+    padding: 130px 150px;
 }
